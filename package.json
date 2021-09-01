@@ -7,7 +7,7 @@
   "author": "Twilio <twilio.com>",
   "license": "MIT",
   "scripts": {
-    "start": "npm start"
+    "start": "node src/index.js"
   },
   "engines": {
     "node": ">=13"
