@@ -38,7 +38,7 @@ const customers = [
         customer_id: 1,
         display_name: 'Dong Feifei',
         channels: [
-            { type: 'email', value: 'customer1.example.com' },
+            { type: 'email', value: 'customer1@example.com' },
             { type: 'sms', value: '+6581259138' },
             { type: 'whatsapp', value: 'whatsapp:+6581259138' }
         ],
@@ -48,10 +48,10 @@ const customers = [
         worker: 'schua@twilio.com'
      },
      {
-        customer_id: 1,
+        customer_id: 2,
         display_name: '李高人',
         channels: [
-            { type: 'email', value: 'customer2.example.com' },
+            { type: 'email', value: 'customer2@example.com' },
             { type: 'sms', value: '+6588025239' },
             { type: 'whatsapp', value: 'whatsapp:+6588025239'}
         ],
