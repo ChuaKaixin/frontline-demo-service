@@ -33,7 +33,36 @@ const customersToWorkersMap = {};
 //   }
 // ]
 
-const customers = [];
+const customers = [
+    {
+        customer_id: 1,
+        display_name: 'Dong Feifei',
+        channels: [
+            { type: 'email', value: 'customer1.example.com' },
+            { type: 'sms', value: '+6581259138' },
+            { type: 'whatsapp', value: 'whatsapp:+6581259138' }
+        ],
+        links: [
+            { type: 'Facebook', value: 'https://facebook.com', display_name: 'Social Media Profile' }
+        ],
+        worker: 'schua@twilio.com'
+     },
+     {
+        customer_id: 1,
+        display_name: '李高人',
+        channels: [
+            { type: 'email', value: 'customer2.example.com' },
+            { type: 'sms', value: '+6588025239' },
+            { type: 'whatsapp', value: 'whatsapp:+6588025239'}
+        ],
+        links: [
+            { type: 'Facebook', value: 'https://facebook.com', display_name: 'Social Media Profile' }
+        ],
+        worker: 'schua@twilio.com'
+     }
+
+
+];
 
 const findWorkerForCustomer = async (customerNumber) => customersToWorkersMap[customerNumber];
 
